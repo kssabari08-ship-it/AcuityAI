@@ -1,0 +1,1433 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Revision Architect//Aarav Sharma Exam Revision//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Aarav Exam Revision Plan (AI Optimized)
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:revision-event-1-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261012T173000
+DTEND:20261012T182000
+SUMMARY:[MATHEMATICS - WEAK] Definite Integration by Parts
+DESCRIPTION:Subject: Mathematics\nFocus: Definite Integration by Parts\nModality: 5 Timed Past-Paper Integrals + Error Log\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Definite Integration by Parts
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-2-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261012T183000
+DTEND:20261012T192000
+SUMMARY:[MATHEMATICS - WEAK] Integration by Parts: Repeated & Trig
+DESCRIPTION:Subject: Mathematics\nFocus: Integration by Parts: Repeated & Trig\nModality: Feynman Technique on Whiteboard\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Integration by Parts: Repeated & Trig
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-3-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261012T193000
+DTEND:20261012T202000
+SUMMARY:[CHEMISTRY - STRONG] Periodic Trends & Periodicity
+DESCRIPTION:Subject: Chemistry\nFocus: Periodic Trends & Periodicity\nModality: 20 Rapid Spaced Flashcards\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Periodic Trends & Periodicity
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-4-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261013T173000
+DTEND:20261013T182000
+SUMMARY:[PHYSICS - WEAK] Electromagnetic Induction: Faraday/Lenz
+DESCRIPTION:Subject: Physics\nFocus: Electromagnetic Induction: Faraday/Lenz\nModality: Direction Prediction Drills (Right Hand Rule)\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Electromagnetic Induction: Faraday/Lenz
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-5-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261013T183000
+DTEND:20261013T192000
+SUMMARY:[PHYSICS - WEAK] Motional EMF & Induced Current
+DESCRIPTION:Subject: Physics\nFocus: Motional EMF & Induced Current\nModality: 4 Multi-step Calculation Problems\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Motional EMF & Induced Current
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-6-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261013T193000
+DTEND:20261013T202000
+SUMMARY:[COMPUTER SCIENCE - STRONG] Boolean Logic & De Morgan's Laws
+DESCRIPTION:Subject: Computer Science\nFocus: Boolean Logic & De Morgan's Laws\nModality: Truth Table Rapid Proofs\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Boolean Logic & De Morgan's Laws
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-7-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261014T173000
+DTEND:20261014T182000
+SUMMARY:[COMPUTER SCIENCE - WEAK] Dynamic Programming: Memoization vs Tabulation
+DESCRIPTION:Subject: Computer Science\nFocus: Dynamic Programming: Memoization vs Tabulation\nModality: Code Tracing & State Transition Trees\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Dynamic Programming: Memoization vs Tabulation
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-8-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261014T183000
+DTEND:20261014T192000
+SUMMARY:[COMPUTER SCIENCE - WEAK] Dynamic Programming: 0/1 Knapsack
+DESCRIPTION:Subject: Computer Science\nFocus: Dynamic Programming: 0/1 Knapsack\nModality: 3 Pseudo-code Problems from Scratch\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Dynamic Programming: 0/1 Knapsack
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-9-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261014T193000
+DTEND:20261014T202000
+SUMMARY:[MATHEMATICS - WEAK-RETRIEVAL] Math: Integration by Parts (+3d Spaced)
+DESCRIPTION:Subject: Mathematics\nFocus: Math: Integration by Parts (+3d Spaced)\nModality: 3 Blind Integration Problems without Notes\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Math: Integration by Parts (+3d Spaced)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-10-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261015T173000
+DTEND:20261015T182000
+SUMMARY:[CHEMISTRY - WEAK] Organic: Aldehydes & Ketones Addition
+DESCRIPTION:Subject: Chemistry\nFocus: Organic: Aldehydes & Ketones Addition\nModality: Reaction Mechanism Flowchart from Memory\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Organic: Aldehydes & Ketones Addition
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-11-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261015T183000
+DTEND:20261015T192000
+SUMMARY:[CHEMISTRY - WEAK] Aldehydes: Grignard & Carbonyl Reactions
+DESCRIPTION:Subject: Chemistry\nFocus: Aldehydes: Grignard & Carbonyl Reactions\nModality: Synthesis Pathway Reverse-Engineering\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Aldehydes: Grignard & Carbonyl Reactions
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-12-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261015T193000
+DTEND:20261015T202000
+SUMMARY:[PHYSICS - STRONG] Kinematics & Projectile Motion
+DESCRIPTION:Subject: Physics\nFocus: Kinematics & Projectile Motion\nModality: 5 Quick Numerical Drills\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Kinematics & Projectile Motion
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-13-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261016T173000
+DTEND:20261016T182000
+SUMMARY:[PHYSICS - WEAK-RETRIEVAL] Physics: EMI Faraday Problems (+3d Spaced)
+DESCRIPTION:Subject: Physics\nFocus: Physics: EMI Faraday Problems (+3d Spaced)\nModality: 4 Complex Flux Linkage Questions\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Physics: EMI Faraday Problems (+3d Spaced)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-14-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261016T183000
+DTEND:20261016T192000
+SUMMARY:[COMPUTER SCIENCE - WEAK-RETRIEVAL] CS: 0/1 Knapsack DP Tracing (+2d Spaced)
+DESCRIPTION:Subject: Computer Science\nFocus: CS: 0/1 Knapsack DP Tracing (+2d Spaced)\nModality: Blind Table Construction Drill\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: CS: 0/1 Knapsack DP Tracing (+2d Spaced)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-15-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261016T193000
+DTEND:20261016T202000
+SUMMARY:[CHEMISTRY - STRONG] States of Matter & Ideal Gas Law
+DESCRIPTION:Subject: Chemistry\nFocus: States of Matter & Ideal Gas Law\nModality: Past Exam Multiple Choice Set\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: States of Matter & Ideal Gas Law
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-16-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261017T090000
+DTEND:20261017T095000
+SUMMARY:[MATHEMATICS - WEAK] Differential Equations: Variable Separable
+DESCRIPTION:Subject: Mathematics\nFocus: Differential Equations: Variable Separable\nModality: 6 Differential Equations Solutions\nMandatory 10-min break at 09:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Differential Equations: Variable Separable
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-17-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261017T100000
+DTEND:20261017T105000
+SUMMARY:[MATHEMATICS - WEAK] Differential Equations: Integrating Factor
+DESCRIPTION:Subject: Mathematics\nFocus: Differential Equations: Integrating Factor\nModality: Step-by-Step Integrating Factor Derivations\nMandatory 10-min break at 10:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Differential Equations: Integrating Factor
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-18-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261017T110000
+DTEND:20261017T115000
+SUMMARY:[CHEMISTRY - WEAK] Chemical Kinetics: Integrated Rate Laws
+DESCRIPTION:Subject: Chemistry\nFocus: Chemical Kinetics: Integrated Rate Laws\nModality: Graphical Analysis & Half-life Calculations\nMandatory 10-min break at 11:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Chemical Kinetics: Integrated Rate Laws
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-19-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261017T140000
+DTEND:20261017T145000
+SUMMARY:[PHYSICS - WEAK] Alternating Current: Pure L/C/R Circuits
+DESCRIPTION:Subject: Physics\nFocus: Alternating Current: Pure L/C/R Circuits\nModality: Phasor Diagram Sketching & Impedance Formulas\nMandatory 10-min break at 14:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Alternating Current: Pure L/C/R Circuits
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-20-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261017T150000
+DTEND:20261017T155000
+SUMMARY:[PHYSICS - WEAK] AC Series LCR Resonance & Quality Factor
+DESCRIPTION:Subject: Physics\nFocus: AC Series LCR Resonance & Quality Factor\nModality: 4 Analytical Circuit Problems\nMandatory 10-min break at 15:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: AC Series LCR Resonance & Quality Factor
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-21-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261017T160000
+DTEND:20261017T165000
+SUMMARY:[COMPUTER SCIENCE - STRONG] Object-Oriented Programming (Classes)
+DESCRIPTION:Subject: Computer Science\nFocus: Object-Oriented Programming (Classes)\nModality: UML to Python Implementation Sprint\nMandatory 10-min break at 16:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Object-Oriented Programming (Classes)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-22-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261018T090000
+DTEND:20261018T095000
+SUMMARY:[COMPUTER SCIENCE - WEAK] SQL: Normalization 1NF to 3NF
+DESCRIPTION:Subject: Computer Science\nFocus: SQL: Normalization 1NF to 3NF\nModality: Anomaly Identification Drills on Tables\nMandatory 10-min break at 09:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: SQL: Normalization 1NF to 3NF
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-23-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261018T100000
+DTEND:20261018T105000
+SUMMARY:[COMPUTER SCIENCE - WEAK] SQL: Multi-Table JOINs (INNER, LEFT, OUTER)
+DESCRIPTION:Subject: Computer Science\nFocus: SQL: Multi-Table JOINs (INNER, LEFT, OUTER)\nModality: 5 Live Query Formulations on DB Schema\nMandatory 10-min break at 10:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: SQL: Multi-Table JOINs (INNER, LEFT, OUTER)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-24-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261018T110000
+DTEND:20261018T115000
+SUMMARY:[MATHEMATICS - STRONG] Matrices & Determinants Properties
+DESCRIPTION:Subject: Mathematics\nFocus: Matrices & Determinants Properties\nModality: Inverse Matrix & Cramer's Rule Speed Test\nMandatory 10-min break at 11:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Matrices & Determinants Properties
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-25-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261018T140000
+DTEND:20261018T145000
+SUMMARY:[CHEMISTRY - WEAK-RETRIEVAL] Organic Reactions & Kinetics Retrieval (+3d)
+DESCRIPTION:Subject: Chemistry\nFocus: Organic Reactions & Kinetics Retrieval (+3d)\nModality: Mixed Carbonyls Mechanism Quiz\nMandatory 10-min break at 14:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Organic Reactions & Kinetics Retrieval (+3d)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-26-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261018T150000
+DTEND:20261018T155000
+SUMMARY:[ALL SUBJECTS - AUDIT] Week 1 Error Journal Synthesis
+DESCRIPTION:Subject: All Subjects\nFocus: Week 1 Error Journal Synthesis\nModality: Dissect Incorrect Problem Log & Re-solve\nMandatory 10-min break at 15:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Week 1 Error Journal Synthesis
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-27-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261019T173000
+DTEND:20261019T182000
+SUMMARY:[MATHEMATICS - WEAK-RETRIEVAL] Integration by Parts (+7d Retrieval)
+DESCRIPTION:Subject: Mathematics\nFocus: Integration by Parts (+7d Retrieval)\nModality: Hard Exam Problems (Secant & Logs)\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Integration by Parts (+7d Retrieval)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-28-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261019T183000
+DTEND:20261019T192000
+SUMMARY:[MATHEMATICS - WEAK] 3D Vectors: Direction Cosines & Lines
+DESCRIPTION:Subject: Mathematics\nFocus: 3D Vectors: Direction Cosines & Lines\nModality: 3D Coordinate Sketching + Vector Forms\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: 3D Vectors: Direction Cosines & Lines
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-29-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261019T193000
+DTEND:20261019T202000
+SUMMARY:[CHEMISTRY - STRONG] Solutions & Colligative Properties
+DESCRIPTION:Subject: Chemistry\nFocus: Solutions & Colligative Properties\nModality: 5 Osmotic Pressure & Boiling Drills\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Solutions & Colligative Properties
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-30-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261020T173000
+DTEND:20261020T182000
+SUMMARY:[PHYSICS - WEAK-RETRIEVAL] AC Series LCR Resonance (+3d Spaced)
+DESCRIPTION:Subject: Physics\nFocus: AC Series LCR Resonance (+3d Spaced)\nModality: Phasor Resonance Calculations under Pressure\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: AC Series LCR Resonance (+3d Spaced)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-31-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261020T183000
+DTEND:20261020T192000
+SUMMARY:[PHYSICS - WEAK] Wave Optics: Huygens Principle & Refraction
+DESCRIPTION:Subject: Physics\nFocus: Wave Optics: Huygens Principle & Refraction\nModality: Derivation from Scratch on Blank Paper\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Wave Optics: Huygens Principle & Refraction
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-32-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261020T193000
+DTEND:20261020T202000
+SUMMARY:[COMPUTER SCIENCE - STRONG] Python File Handling & Exceptions
+DESCRIPTION:Subject: Computer Science\nFocus: Python File Handling & Exceptions\nModality: 3 File Parsing Script Challenges\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Python File Handling & Exceptions
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-33-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261021T173000
+DTEND:20261021T182000
+SUMMARY:[COMPUTER SCIENCE - WEAK-RETRIEVAL] DP: Longest Common Subsequence
+DESCRIPTION:Subject: Computer Science\nFocus: DP: Longest Common Subsequence\nModality: Matrix Tabulation & Pointer Reconstruction\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: DP: Longest Common Subsequence
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-34-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261021T183000
+DTEND:20261021T192000
+SUMMARY:[COMPUTER SCIENCE - WEAK] Graph Algorithms: BFS & DFS Traversal
+DESCRIPTION:Subject: Computer Science\nFocus: Graph Algorithms: BFS & DFS Traversal\nModality: Adjacency List Implementation & Hand-Tracing\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Graph Algorithms: BFS & DFS Traversal
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-35-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261021T193000
+DTEND:20261021T202000
+SUMMARY:[MATHEMATICS - STRONG] Basic Differentiation & Tangents
+DESCRIPTION:Subject: Mathematics\nFocus: Basic Differentiation & Tangents\nModality: 5 Tangent Line Derivation Sprints\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Basic Differentiation & Tangents
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-36-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261022T173000
+DTEND:20261022T182000
+SUMMARY:[CHEMISTRY - WEAK] Organic: Aldol Condensation & Cannizzaro
+DESCRIPTION:Subject: Chemistry\nFocus: Organic: Aldol Condensation & Cannizzaro\nModality: Enolate Ion Reaction Mechanism Step-by-Step\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Organic: Aldol Condensation & Cannizzaro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-37-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261022T183000
+DTEND:20261022T192000
+SUMMARY:[CHEMISTRY - WEAK] Electrochemistry: Nernst Equation & EMF
+DESCRIPTION:Subject: Chemistry\nFocus: Electrochemistry: Nernst Equation & EMF\nModality: Standard EMF Calculations (Non-standard conc)\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Electrochemistry: Nernst Equation & EMF
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-38-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261022T193000
+DTEND:20261022T202000
+SUMMARY:[PHYSICS - STRONG] Thermodynamics First Law & Heat Engines
+DESCRIPTION:Subject: Physics\nFocus: Thermodynamics First Law & Heat Engines\nModality: Cyclic Process P-V Diagram Analysis\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Thermodynamics First Law & Heat Engines
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-39-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261023T173000
+DTEND:20261023T182000
+SUMMARY:[PHYSICS - WEAK] Wave Optics: Young's Double Slit Derivation
+DESCRIPTION:Subject: Physics\nFocus: Wave Optics: Young's Double Slit Derivation\nModality: Past Exam Derivation under 15 min\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Wave Optics: Young's Double Slit Derivation
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-40-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261023T183000
+DTEND:20261023T192000
+SUMMARY:[MATHEMATICS - WEAK] 3D Vectors: Skew Lines & Shortest Distance
+DESCRIPTION:Subject: Mathematics\nFocus: 3D Vectors: Skew Lines & Shortest Distance\nModality: 4 Vector Cross-Product Distance Calculations\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: 3D Vectors: Skew Lines & Shortest Distance
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-41-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261023T193000
+DTEND:20261023T202000
+SUMMARY:[COMPUTER SCIENCE - STRONG] SQL Basics: DDL, DML & Aggregates
+DESCRIPTION:Subject: Computer Science\nFocus: SQL Basics: DDL, DML & Aggregates\nModality: Rapid Schema Query Challenges\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: SQL Basics: DDL, DML & Aggregates
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-42-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261024T090000
+DTEND:20261024T095000
+SUMMARY:[MATHEMATICS - WEAK-RETRIEVAL] Differential Equations: Integrating Factors (+7d)
+DESCRIPTION:Subject: Mathematics\nFocus: Differential Equations: Integrating Factors (+7d)\nModality: 5 Timed Past-Paper Differential Equations\nMandatory 10-min break at 09:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Differential Equations: Integrating Factors (+7d)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-43-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261024T100000
+DTEND:20261024T105000
+SUMMARY:[MATHEMATICS - WEAK] 3D Vectors & Plane Equations Intersection
+DESCRIPTION:Subject: Mathematics\nFocus: 3D Vectors & Plane Equations Intersection\nModality: Mixed Exam Problem Set\nMandatory 10-min break at 10:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: 3D Vectors & Plane Equations Intersection
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-44-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261024T110000
+DTEND:20261024T115000
+SUMMARY:[PHYSICS - WEAK-RETRIEVAL] Alternating Current & Transformer Losses
+DESCRIPTION:Subject: Physics\nFocus: Alternating Current & Transformer Losses\nModality: Efficiency Calculations & Core Losses\nMandatory 10-min break at 11:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Alternating Current & Transformer Losses
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-45-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261024T140000
+DTEND:20261024T145000
+SUMMARY:[CHEMISTRY - WEAK-RETRIEVAL] Chemical Kinetics: Arrhenius Equation
+DESCRIPTION:Subject: Chemistry\nFocus: Chemical Kinetics: Arrhenius Equation\nModality: Natural Log Slope & Activation Energy\nMandatory 10-min break at 14:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Chemical Kinetics: Arrhenius Equation
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-46-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261024T150000
+DTEND:20261024T155000
+SUMMARY:[CHEMISTRY - WEAK] Electrochemistry: Kohlrausch's Law
+DESCRIPTION:Subject: Chemistry\nFocus: Electrochemistry: Kohlrausch's Law\nModality: 4 Electrolytic Cell Numerical Questions\nMandatory 10-min break at 15:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Electrochemistry: Kohlrausch's Law
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-47-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261024T160000
+DTEND:20261024T165000
+SUMMARY:[COMPUTER SCIENCE - WEAK-RETRIEVAL] SQL Normalization: Functional Dependencies
+DESCRIPTION:Subject: Computer Science\nFocus: SQL Normalization: Functional Dependencies\nModality: Multi-Table Normalization Exam Paper\nMandatory 10-min break at 16:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: SQL Normalization: Functional Dependencies
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-48-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261025T090000
+DTEND:20261025T095000
+SUMMARY:[COMPUTER SCIENCE - WEAK] Graph Algorithms: Dijkstra's Shortest Path
+DESCRIPTION:Subject: Computer Science\nFocus: Graph Algorithms: Dijkstra's Shortest Path\nModality: Manual Table Tracing with Priority Queue\nMandatory 10-min break at 09:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Graph Algorithms: Dijkstra's Shortest Path
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-49-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261025T100000
+DTEND:20261025T105000
+SUMMARY:[PHYSICS - WEAK] Wave Optics: Single Slit Diffraction Minima
+DESCRIPTION:Subject: Physics\nFocus: Wave Optics: Single Slit Diffraction Minima\nModality: Intensity Graph Analysis & Derivations\nMandatory 10-min break at 10:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Wave Optics: Single Slit Diffraction Minima
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-50-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261025T110000
+DTEND:20261025T115000
+SUMMARY:[CHEMISTRY - STRONG] Coordination Chemistry: IUPAC & Isomerism
+DESCRIPTION:Subject: Chemistry\nFocus: Coordination Chemistry: IUPAC & Isomerism\nModality: Flashcard Identification Drill\nMandatory 10-min break at 11:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Coordination Chemistry: IUPAC & Isomerism
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-51-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261025T140000
+DTEND:20261025T145000
+SUMMARY:[MATHEMATICS - STRONG] Probability: Conditional & Bayes Theorem
+DESCRIPTION:Subject: Mathematics\nFocus: Probability: Conditional & Bayes Theorem\nModality: 4 Complex Word Problems\nMandatory 10-min break at 14:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Probability: Conditional & Bayes Theorem
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-52-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261025T150000
+DTEND:20261025T155000
+SUMMARY:[ALL SUBJECTS - AUDIT] Week 2 Error Log Review & Re-test
+DESCRIPTION:Subject: All Subjects\nFocus: Week 2 Error Log Review & Re-test\nModality: Retest 3 Failed Problems from Week 1-2\nMandatory 10-min break at 15:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Week 2 Error Log Review & Re-test
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-53-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261026T173000
+DTEND:20261026T182000
+SUMMARY:[MATHEMATICS - WEAK-RETRIEVAL] Definite Integrals (+14d Master Spaced)
+DESCRIPTION:Subject: Mathematics\nFocus: Definite Integrals (+14d Master Spaced)\nModality: Section B Mock Integration Paper\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Definite Integrals (+14d Master Spaced)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-54-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261026T183000
+DTEND:20261026T192000
+SUMMARY:[PHYSICS - WEAK-RETRIEVAL] EMI + AC Combined Circuit Synthesis
+DESCRIPTION:Subject: Physics\nFocus: EMI + AC Combined Circuit Synthesis\nModality: Interleaved Circuit Problem Solving\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: EMI + AC Combined Circuit Synthesis
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-55-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261026T193000
+DTEND:20261026T202000
+SUMMARY:[COMPUTER SCIENCE - STRONG] OOP + Logic Gates Rapid Interleaving
+DESCRIPTION:Subject: Computer Science\nFocus: OOP + Logic Gates Rapid Interleaving\nModality: Past Exam Short Answers Blitz\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: OOP + Logic Gates Rapid Interleaving
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-56-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261027T173000
+DTEND:20261027T182000
+SUMMARY:[CHEMISTRY - WEAK-RETRIEVAL] Organic Aldehydes & Acids Conversions
+DESCRIPTION:Subject: Chemistry\nFocus: Organic Aldehydes & Acids Conversions\nModality: Multi-Step Synthesis Pathway Exam Drills\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Organic Aldehydes & Acids Conversions
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-57-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261027T183000
+DTEND:20261027T192000
+SUMMARY:[MATHEMATICS - WEAK] 3D Vectors + Differential Equations Mixed
+DESCRIPTION:Subject: Mathematics\nFocus: 3D Vectors + Differential Equations Mixed\nModality: High-Weight Past Exam Questions\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: 3D Vectors + Differential Equations Mixed
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-58-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261027T193000
+DTEND:20261027T202000
+SUMMARY:[PHYSICS - STRONG] Photoelectric Effect & Binding Energy
+DESCRIPTION:Subject: Physics\nFocus: Photoelectric Effect & Binding Energy\nModality: Equation Calculations & Curve Graphs\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Photoelectric Effect & Binding Energy
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-59-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261028T173000
+DTEND:20261028T182000
+SUMMARY:[COMPUTER SCIENCE - WEAK-RETRIEVAL] DP + Graph Traversal Synthesis
+DESCRIPTION:Subject: Computer Science\nFocus: DP + Graph Traversal Synthesis\nModality: 2 Hard Coding Tracing Questions\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: DP + Graph Traversal Synthesis
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-60-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261028T183000
+DTEND:20261028T192000
+SUMMARY:[CHEMISTRY - WEAK] Kinetics + Electrochemistry Mixed Numericals
+DESCRIPTION:Subject: Chemistry\nFocus: Kinetics + Electrochemistry Mixed Numericals\nModality: Formula Synthesis without Formula Sheet\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Kinetics + Electrochemistry Mixed Numericals
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-61-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261028T193000
+DTEND:20261028T202000
+SUMMARY:[MATHEMATICS - STRONG] Matrices & Vector Foundations
+DESCRIPTION:Subject: Mathematics\nFocus: Matrices & Vector Foundations\nModality: Rapid Speed Verification Test\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Matrices & Vector Foundations
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-62-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261029T173000
+DTEND:20261029T182000
+SUMMARY:[PHYSICS - WEAK] Wave Optics Interference & Diffraction
+DESCRIPTION:Subject: Physics\nFocus: Wave Optics Interference & Diffraction\nModality: 5 Past Board Questions with Mark Scheme\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Wave Optics Interference & Diffraction
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-63-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261029T183000
+DTEND:20261029T192000
+SUMMARY:[MATHEMATICS - WEAK] Definite Integrals with Properties
+DESCRIPTION:Subject: Mathematics\nFocus: Definite Integrals with Properties\nModality: Proof Application Problems\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Definite Integrals with Properties
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-64-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261029T193000
+DTEND:20261029T202000
+SUMMARY:[COMPUTER SCIENCE - STRONG] Python OOP Class Architecture & Recursion
+DESCRIPTION:Subject: Computer Science\nFocus: Python OOP Class Architecture & Recursion\nModality: Live Trace on IDE\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Python OOP Class Architecture & Recursion
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-65-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261030T173000
+DTEND:20261030T182000
+SUMMARY:[CHEMISTRY - WEAK] Organic: Named Reactions Recall Blitz
+DESCRIPTION:Subject: Chemistry\nFocus: Organic: Named Reactions Recall Blitz\nModality: Blurting Technique on Whiteboard\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Organic: Named Reactions Recall Blitz
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-66-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261030T183000
+DTEND:20261030T192000
+SUMMARY:[COMPUTER SCIENCE - WEAK] SQL Subqueries, Aggregates & GROUP BY
+DESCRIPTION:Subject: Computer Science\nFocus: SQL Subqueries, Aggregates & GROUP BY\nModality: 6 Complex SQL Problem Statements\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: SQL Subqueries, Aggregates & GROUP BY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-67-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261030T193000
+DTEND:20261030T202000
+SUMMARY:[PHYSICS - STRONG] Kinematics & Mechanics Revision
+DESCRIPTION:Subject: Physics\nFocus: Kinematics & Mechanics Revision\nModality: Conceptual MCQs & Graph Interpretations\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Kinematics & Mechanics Revision
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-68-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261031T090000
+DTEND:20261031T113000
+SUMMARY:[MATHEMATICS - SIMULATION] FULL MATHEMATICS SECTION MOCK EXAM (2.5h)
+DESCRIPTION:Subject: Mathematics\nFocus: FULL MATHEMATICS SECTION MOCK EXAM (2.5h)\nModality: Simulated Exam Conditions with Strict Timer\nMandatory 10-min break at 11:30
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: FULL MATHEMATICS SECTION MOCK EXAM (2.5h)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-69-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261031T140000
+DTEND:20261031T145000
+SUMMARY:[MATHEMATICS - AUDIT] Math Mock Error Analysis & Rubric Audit
+DESCRIPTION:Subject: Mathematics\nFocus: Math Mock Error Analysis & Rubric Audit\nModality: Deep Red-Pen Diagnosis on Every Lost Mark\nMandatory 10-min break at 14:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Math Mock Error Analysis & Rubric Audit
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-70-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261031T150000
+DTEND:20261031T155000
+SUMMARY:[PHYSICS - WEAK] Physics Numericals: High-friction AC & EMI
+DESCRIPTION:Subject: Physics\nFocus: Physics Numericals: High-friction AC & EMI\nModality: Targeted Problem Repair\nMandatory 10-min break at 15:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Physics Numericals: High-friction AC & EMI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-71-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261031T160000
+DTEND:20261031T165000
+SUMMARY:[CHEMISTRY - STRONG] Physical Chemistry Formula Blitz
+DESCRIPTION:Subject: Chemistry\nFocus: Physical Chemistry Formula Blitz\nModality: Formula Recall Sheet Generation\nMandatory 10-min break at 16:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Physical Chemistry Formula Blitz
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-72-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261101T090000
+DTEND:20261101T113000
+SUMMARY:[PHYSICS - SIMULATION] FULL PHYSICS SECTION MOCK EXAM (2.5h)
+DESCRIPTION:Subject: Physics\nFocus: FULL PHYSICS SECTION MOCK EXAM (2.5h)\nModality: Real Past Exam Paper under Time Pressure\nMandatory 10-min break at 11:30
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: FULL PHYSICS SECTION MOCK EXAM (2.5h)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-73-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261101T140000
+DTEND:20261101T145000
+SUMMARY:[PHYSICS - AUDIT] Physics Mock Mark Scheme Review
+DESCRIPTION:Subject: Physics\nFocus: Physics Mock Mark Scheme Review\nModality: Identify Formula Blindspots\nMandatory 10-min break at 14:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Physics Mock Mark Scheme Review
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-74-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261101T150000
+DTEND:20261101T155000
+SUMMARY:[COMPUTER SCIENCE - WEAK] Dynamic Programming & SQL Final Weakness Review
+DESCRIPTION:Subject: Computer Science\nFocus: Dynamic Programming & SQL Final Weakness Review\nModality: Retest Weakest Question Types\nMandatory 10-min break at 15:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Dynamic Programming & SQL Final Weakness Review
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-75-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261102T173000
+DTEND:20261102T182000
+SUMMARY:[MATHEMATICS - EXAM-TAPER] Pure Math High-Yield Calculus
+DESCRIPTION:Subject: Mathematics\nFocus: Pure Math High-Yield Calculus\nModality: 4 Level-3 Past Paper Questions\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Pure Math High-Yield Calculus
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-76-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261102T183000
+DTEND:20261102T192000
+SUMMARY:[MATHEMATICS - EXAM-TAPER] 3D Vectors Shortest Distance Drill
+DESCRIPTION:Subject: Mathematics\nFocus: 3D Vectors Shortest Distance Drill\nModality: Rapid Procedure Execution Drill\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: 3D Vectors Shortest Distance Drill
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-77-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261102T193000
+DTEND:20261102T202000
+SUMMARY:[PHYSICS - EXAM-TAPER] EMI & Alternating Current Formulas
+DESCRIPTION:Subject: Physics\nFocus: EMI & Alternating Current Formulas\nModality: One-Page Cheat Sheet Creation from Memory\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: EMI & Alternating Current Formulas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-78-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261103T173000
+DTEND:20261103T182000
+SUMMARY:[PHYSICS - EXAM-TAPER] Wave Optics Derivations & Ray Accuracy
+DESCRIPTION:Subject: Physics\nFocus: Wave Optics Derivations & Ray Accuracy\nModality: Precision Whiteboard Derivations\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Wave Optics Derivations & Ray Accuracy
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-79-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261103T183000
+DTEND:20261103T192000
+SUMMARY:[COMPUTER SCIENCE - EXAM-PREP] DP & SQL Key Syntax Review
+DESCRIPTION:Subject: Computer Science\nFocus: DP & SQL Key Syntax Review\nModality: 3 Past Paper High-Mark Questions\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: DP & SQL Key Syntax Review
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-80-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261103T193000
+DTEND:20261103T202000
+SUMMARY:[CHEMISTRY - EXAM-PREP] Carbonyl Roadmaps & Mechanism Blitz
+DESCRIPTION:Subject: Chemistry\nFocus: Carbonyl Roadmaps & Mechanism Blitz\nModality: Synthesis Roadmap Flashcard Drill\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Carbonyl Roadmaps & Mechanism Blitz
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-81-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261104T173000
+DTEND:20261104T182000
+SUMMARY:[MATHEMATICS - EXAM-TAPER] Calculus Definite Integrals: Properties
+DESCRIPTION:Subject: Mathematics\nFocus: Calculus Definite Integrals: Properties\nModality: Speed Challenge (10 min per Question)\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Calculus Definite Integrals: Properties
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-82-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261104T183000
+DTEND:20261104T192000
+SUMMARY:[MATHEMATICS - EXAM-TAPER] All-Mistake Log Re-solve: Math Error Journal
+DESCRIPTION:Subject: Mathematics\nFocus: All-Mistake Log Re-solve: Math Error Journal\nModality: Re-solve Historic Mistakes from W1-3\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: All-Mistake Log Re-solve: Math Error Journal
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-83-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261104T193000
+DTEND:20261104T202000
+SUMMARY:[PHYSICS - EXAM-TAPER] High-Probability Physics Numericals
+DESCRIPTION:Subject: Physics\nFocus: High-Probability Physics Numericals\nModality: 5 Mixed Problems (LCR + Lenz + Slits)\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: High-Probability Physics Numericals
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-84-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261105T173000
+DTEND:20261105T182000
+SUMMARY:[PHYSICS - EXAM-TAPER] Physics Error Journal Re-Solving
+DESCRIPTION:Subject: Physics\nFocus: Physics Error Journal Re-Solving\nModality: Active Re-verification of Historic Mistakes\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Physics Error Journal Re-Solving
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-85-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261105T183000
+DTEND:20261105T192000
+SUMMARY:[COMPUTER SCIENCE - EXAM-PREP] Full Section Mock: SQL & Graphs (Timed)
+DESCRIPTION:Subject: Computer Science\nFocus: Full Section Mock: SQL & Graphs (Timed)\nModality: 45-min Timed Problem Set\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Full Section Mock: SQL & Graphs (Timed)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-86-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261105T193000
+DTEND:20261105T202000
+SUMMARY:[CHEMISTRY - EXAM-PREP] Electrochem & Kinetics Numericals
+DESCRIPTION:Subject: Chemistry\nFocus: Electrochem & Kinetics Numericals\nModality: Numerical Verification Drills\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Electrochem & Kinetics Numericals
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-87-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261106T173000
+DTEND:20261106T182000
+SUMMARY:[MATHEMATICS - EXAM-TAPER] Math Formula Consolidation & Polish
+DESCRIPTION:Subject: Mathematics\nFocus: Math Formula Consolidation & Polish\nModality: Whiteboard Formula Proofs\nMandatory 10-min break at 18:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Math Formula Consolidation & Polish
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-88-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261106T183000
+DTEND:20261106T192000
+SUMMARY:[PHYSICS - EXAM-TAPER] Physics Derivations Speed Run (6 Core)
+DESCRIPTION:Subject: Physics\nFocus: Physics Derivations Speed Run (6 Core)\nModality: Timed Derivations (8 min each)\nMandatory 10-min break at 19:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Physics Derivations Speed Run (6 Core)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-89-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261106T193000
+DTEND:20261106T202000
+SUMMARY:[ALL SUBJECTS - CALM] Calm Cognitive Review: Mindmaps Only
+DESCRIPTION:Subject: All Subjects\nFocus: Calm Cognitive Review: Mindmaps Only\nModality: Low-Stress Visual Diagram Review\nMandatory 10-min break at 20:20
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Calm Cognitive Review: Mindmaps Only
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-90-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261107T090000
+DTEND:20261107T113000
+SUMMARY:[MATHEMATICS - SIMULATION] PRE-EXAM FULL MATHS MOCK EXAM (2.5h)
+DESCRIPTION:Subject: Mathematics\nFocus: PRE-EXAM FULL MATHS MOCK EXAM (2.5h)\nModality: Realistic Exam Hall Simulation\nMandatory 10-min break at 11:30
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: PRE-EXAM FULL MATHS MOCK EXAM (2.5h)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-91-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261107T140000
+DTEND:20261107T145000
+SUMMARY:[MATHEMATICS - DEBRIEF] Final Mark Scheme Scoring & Rubric Check
+DESCRIPTION:Subject: Mathematics\nFocus: Final Mark Scheme Scoring & Rubric Check\nModality: Rubric Verification (Target: 85%+)\nMandatory 10-min break at 14:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Final Mark Scheme Scoring & Rubric Check
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-92-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261107T150000
+DTEND:20261107T155000
+SUMMARY:[PHYSICS - EXAM-TAPER] Physics Formula Memorization Check
+DESCRIPTION:Subject: Physics\nFocus: Physics Formula Memorization Check\nModality: Closed-Book Formula Sheet Generation\nMandatory 10-min break at 15:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Physics Formula Memorization Check
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-93-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261107T160000
+DTEND:20261107T165000
+SUMMARY:[LOGISTICS - TAPER] Stationery, Calculator Battery & Logistics
+DESCRIPTION:Subject: Logistics\nFocus: Stationery, Calculator Battery & Logistics\nModality: Zero Stress Admin & Sleep Prep\nMandatory 10-min break at 16:50
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Stationery, Calculator Battery & Logistics
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-94-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261108T090000
+DTEND:20261108T103000
+SUMMARY:[MATHEMATICS - LIGHT-WARMUP] Light Math Warm-up (Clean Formula Sheet)
+DESCRIPTION:Subject: Mathematics\nFocus: Light Math Warm-up (Clean Formula Sheet)\nModality: Review Clean Formula Sheet & Key Identities\nMandatory 10-min break at 10:30
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Light Math Warm-up (Clean Formula Sheet)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:revision-event-95-20261012@airevisionplanner.internal
+DTSTAMP:20261010T100000Z
+DTSTART:20261108T110000
+DTEND:20261108T120000
+SUMMARY:[MINDSET - MINDSET] Exam Psychology, Breathing Drills & Calm Walk
+DESCRIPTION:Subject: Mindset\nFocus: Exam Psychology, Breathing Drills & Calm Walk\nModality: Active Nervous System Downregulation\nMandatory 10-min break at 12:00
+LOCATION:Study Desk / Quiet Zone
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Upcoming Revision Sprint: Exam Psychology, Breathing Drills & Calm Walk
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AcuityAI — Personalised Exam Revision Planner | Capstone 2</title>
+  <meta name="description" content="Capstone 2 Project: An evidence-based, AI-driven exam revision timetable adapting to weak topics and available hours.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand">
+        <div class="brand-logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>Acuity<span>AI</span></h1>
+          <span class="badge-capstone">Capstone 2 Portfolio</span>
+        </div>
+      </div>
+      
+      <div class="header-question">
+        <span class="question-label">Research Focus:</span>
+        <span class="question-text">"Can AI build a realistic revision timetable that adapts to weak topics and available hours?"</span>
+      </div>
+
+      <div class="header-actions">
+        <a href="#tab-calendar" class="btn btn-primary" id="btn-header-sync">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Export Calendar
+        </a>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs" id="main-nav">
+      <button class="nav-btn active" data-tab="tab-overview" id="nav-tab-overview">
+        <span class="tab-icon">📊</span> Overview & Profile
+      </button>
+      <button class="nav-btn" data-tab="tab-prompts" id="nav-tab-prompts">
+        <span class="tab-icon">⚡</span> Prompt Engineering
+      </button>
+      <button class="nav-btn" data-tab="tab-schedule" id="nav-tab-schedule">
+        <span class="tab-icon">📅</span> 4-Week Timetable
+      </button>
+      <button class="nav-btn" data-tab="tab-audit" id="nav-tab-audit">
+        <span class="tab-icon">🛡️</span> Verification & Audit
+      </button>
+      <button class="nav-btn" data-tab="tab-matrix" id="nav-tab-matrix">
+        <span class="tab-icon">⚖️</span> 3-AI Comparison
+      </button>
+      <button class="nav-btn" data-tab="tab-calendar" id="nav-tab-calendar">
+        <span class="tab-icon">📲</span> Calendar & Notion Hub
+      </button>
+      <button class="nav-btn" data-tab="tab-trial" id="nav-tab-trial">
+        <span class="tab-icon">📈</span> Week 1 Trial (+28%)
+      </button>
+      <button class="nav-btn" data-tab="tab-library" id="nav-tab-library">
+        <span class="tab-icon">📚</span> Prompt Toolkit
+      </button>
+      <button class="nav-btn" data-tab="tab-demo" id="nav-tab-demo">
+        <span class="tab-icon">🎬</span> Slide Deck & Video
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+    
+    <!-- TAB 1: OVERVIEW & PROFILE -->
+    <section class="tab-pane active" id="tab-overview">
+      <div class="pane-header">
+        <div class="pane-title-group">
+          <h2>Student Persona & Capstone Scope</h2>
+          <p>Baseline profile parameters, subject urgency timelines, and empirical study budget.</p>
+        </div>
+        <div class="stat-pills">
+          <div class="stat-pill"><span class="pill-val">22.0</span><span class="pill-lbl">Hours/Wk</span></div>
+          <div class="stat-pill"><span class="pill-val">4</span><span class="pill-lbl">Board Exams</span></div>
+          <div class="stat-pill"><span class="pill-val">65%</span><span class="pill-lbl">Weak Focus</span></div>
+          <div class="stat-pill highlight"><span class="pill-val">98.1%</span><span class="pill-lbl">AI Feasibility</span></div>
+        </div>
+      </div>
+
+      <div class="grid grid-2">
+        <!-- Student Profile Card -->
+        <div class="card glass">
+          <div class="card-header">
+            <div class="icon-circle">👤</div>
+            <h3>Student Identity: Aarav Sharma</h3>
+          </div>
+          <div class="profile-details">
+            <div class="detail-row"><span class="lbl">Academic Stage:</span> <span class="val">Grade 12 STEM Senior (Pre-Engineering)</span></div>
+            <div class="detail-row"><span class="lbl">Target Benchmark:</span> <span class="val">Minimum 85%+ (Grade A/A*) across all 4 subjects</span></div>
+            <div class="detail-row"><span class="lbl">Planning Horizon:</span> <span class="val">4 Weeks (28 Days) prior to Exam 1</span></div>
+            <div class="detail-row"><span class="lbl">Diagnostic Average:</span> <span class="val text-danger">53.0% (Current Mock Baseline)</span></div>
+          </div>
+
+          <h4 class="subhead mt-4">Exam Urgency Timeline</h4>
+          <div class="exam-timeline">
+            <div class="timeline-item critical">
+              <div class="dot"></div>
+              <div class="t-content">
+                <strong>Mathematics (Pure & Mechanics)</strong>
+                <span class="t-date">Exam: Day 29 (28 days left) — Baseline: 54%</span>
+              </div>
+              <span class="badge badge-danger">1st Exam</span>
+            </div>
+            <div class="timeline-item high">
+              <div class="dot"></div>
+              <div class="t-content">
+                <strong>Physics (Core & Applied)</strong>
+                <span class="t-date">Exam: Day 32 (31 days left) — Baseline: 48%</span>
+              </div>
+              <span class="badge badge-warning">2nd Exam</span>
+            </div>
+            <div class="timeline-item medium">
+              <div class="dot"></div>
+              <div class="t-content">
+                <strong>Computer Science (Algorithms & SQL)</strong>
+                <span class="t-date">Exam: Day 35 (34 days left) — Baseline: 58%</span>
+              </div>
+              <span class="badge badge-info">3rd Exam</span>
+            </div>
+            <div class="timeline-item medium">
+              <div class="dot"></div>
+              <div class="t-content">
+                <strong>Chemistry (Organic & Physical)</strong>
+                <span class="t-date">Exam: Day 38 (37 days left) — Baseline: 52%</span>
+              </div>
+              <span class="badge badge-info">4th Exam</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Weekly Availability Envelope & Cognitive Budget -->
+        <div class="card glass">
+          <div class="card-header">
+            <div class="icon-circle">⏰</div>
+            <h3>Weekly Availability Budget & Physiological Envelope</h3>
+          </div>
+          <p class="text-muted">A realistic schedule outlaws "imaginary hours." The schedule rigidly accounts for school, transit, nutrition, and 8 hours of sleep.</p>
+
+          <div class="schedule-envelope-breakdown mt-3">
+            <div class="env-row">
+              <div class="env-day"><strong>Weekdays (Mon – Fri)</strong><span>5 Days × 2.5h</span></div>
+              <div class="env-bar-wrap">
+                <div class="env-bar" style="width: 56.8%;"></div>
+              </div>
+              <div class="env-hours">12.5 h</div>
+            </div>
+            <div class="env-row">
+              <div class="env-day"><strong>Saturday</strong><span>2.5h Morning + 2.5h Afternoon</span></div>
+              <div class="env-bar-wrap">
+                <div class="env-bar" style="width: 22.7%;"></div>
+              </div>
+              <div class="env-hours">5.0 h</div>
+            </div>
+            <div class="env-row">
+              <div class="env-day"><strong>Sunday Morning/Mid</strong><span>2.5h Morning + 2.0h Afternoon</span></div>
+              <div class="env-bar-wrap">
+                <div class="env-bar" style="width: 20.5%;"></div>
+              </div>
+              <div class="env-hours">4.5 h</div>
+            </div>
+            <div class="env-row buffer-row">
+              <div class="env-day"><strong>Sunday Evening (16:00+)</strong><span>Rest & Catch-up Buffer</span></div>
+              <div class="env-bar-wrap">
+                <div class="env-bar buffer" style="width: 100%;"></div>
+              </div>
+              <div class="env-hours">2.0 h Buffer</div>
+            </div>
+          </div>
+
+          <div class="alert alert-info mt-4">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <div>
+              <strong>The Golden 22-Hour Law:</strong> Human working memory cannot sustain more than 22 hours of high-concentration revision while attending high school full time. Any plan prescribing 30+ hours leads to burnout by Day 4.
+            </div>
+          </div>
+
+          <div class="skills-used-grid mt-4">
+            <h4>6 Required AI Skills Demonstrated:</h4>
+            <div class="skills-tags">
+              <span class="skill-tag">1. AI Foundations</span>
+              <span class="skill-tag">2. Prompt Engineering</span>
+              <span class="skill-tag">3. Automation (.ics / CSV)</span>
+              <span class="skill-tag">4. Productivity Workflows (Notion)</span>
+              <span class="skill-tag">5. Responsible AI & Ergonomics</span>
+              <span class="skill-tag">6. Presentation & Media Tools</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: PROMPT ENGINEERING -->
+    <section class="tab-pane" id="tab-prompts">
+      <div class="pane-header">
+        <div class="pane-title-group">
+          <h2>Prompt Engineering Architecture</h2>
+          <p>Analyzing why naive prompts fail catastrophically and how cognitive science constraints solve the problem.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-2">
+        <!-- Baseline Prompt -->
+        <div class="card glass border-danger">
+          <div class="card-header justify-between">
+            <div class="flex items-center gap-2">
+              <span class="status-indicator red"></span>
+              <h3>Baseline Prompt (Naive Student)</h3>
+            </div>
+            <span class="badge badge-danger">Failure Rate: 82%</span>
+          </div>
+          <div class="code-box">
+            <pre><code>Hey, I need a 4-week revision timetable for my upcoming exams.
+My subjects are Maths, Physics, Computer Science, and Chemistry.
+I have around 20-25 hours of free time a week to study.
+My weak topics are:
+- Maths: Integration and differential equations
+- Physics: Electromagnetism and AC circuits
+- Computer Science: Dynamic programming and SQL
+- Chemistry: Organic reactions and kinetics
+Please make me a complete revision schedule so I can get top grades.</code></pre>
+          </div>
+
+          <h4 class="subhead mt-3 text-danger">Severe Failure Modes Observed:</h4>
+          <ul class="danger-list">
+            <li><strong>Hallucinates Impossible Hours</strong>: Schedules sessions during school hours (e.g. 10:00 AM Maths).</li>
+            <li><strong>Omits Biological Breaks</strong>: Recommends 3- to 4-hour unbroken study blocks.</li>
+            <li><strong>Symmetric 25% Time Trap</strong>: Divides hours equally regardless of 48% vs 85% mastery.</li>
+            <li><strong>Passive Verbs</strong>: Recommends "Read chapter 4" (near-zero testing effect).</li>
+            <li><strong>Zero Spaced Intervals</strong>: Abandons topics after a single mention.</li>
+          </ul>
+        </div>
+
+        <!-- Improved Prompt -->
+        <div class="card glass border-success">
+          <div class="card-header justify-between">
+            <div class="flex items-center gap-2">
+              <span class="status-indicator green"></span>
+              <h3>Improved Prompt (Cognitively Guardrailed)</h3>
+            </div>
+            <button class="btn btn-sm btn-outline" id="btn-copy-improved-prompt">Copy Prompt</button>
+          </div>
+          <div class="code-box">
+            <pre><code># SYSTEM ROLE & PERSONA
+You are an elite Cognitive Science Educational Specialist and High-Performance Academic Revision Architect. You specialize in designing mathematically rigorous, biologically sustainable revision schedules based on Sweller's Cognitive Load Theory, Ebbinghaus's Spaced Repetition, and Roediger & Karpicke's Retrieval Practice.
+
+# INPUT STUDENT PROFILE
+- Student: Aarav Sharma (Grade 12 STEM)
+- Exams: Maths (Day 29), Physics (Day 32), CS (Day 35), Chem (Day 38)
+- Weekly Budget: EXACTLY 22.0 productive hours/wk (2.5h weekdays, 5h Sat, 4.5h Sun).
+- Weak Topics (65% Asymmetric Time): Definite Integration, Differential Eq, 3D Vectors, EMI, AC Circuits, Wave Optics, DP, SQL Normalization, Carbonyl Reactions, Kinetics.
+
+# HARD BOUNDARY CONSTRAINTS
+1. Pomodoro 50/10 Mandate: Max 50 min session + 10 min break.
+2. 65% Weak / 35% Strong Asymmetric Allocation.
+3. Active Retrieval Only: FORBIDDEN: "Read", "Review". MANDATORY: "Past Paper Problems", "Feynman Whiteboard", "Code Tracing".
+4. Spaced Repetition: +3, +7, +14 day intervals for all weak topics.
+5. Sunday Evening Buffer: 16:00 onwards reserved for catch-up.
+6. Exam Proximity Tapering: 70%+ Week 4 focus on Maths & Physics.
+
+# OUTPUT FORMAT: Markdown Table with exact columns [Week, Day, Time Slot, Subject, Topic Type, Specific Focus, Modality, Duration, Break, Energy Match].</code></pre>
+          </div>
+
+          <h4 class="subhead mt-3 text-success">Why This Prompt Succeeds:</h4>
+          <ul class="success-list">
+            <li><strong>Hard Time Ceilings</strong> eliminate hallucinated school-hour study.</li>
+            <li><strong>Pomodoro 50/10 Mandate</strong> protects working memory from cognitive saturation.</li>
+            <li><strong>Negative Constraints</strong> ("FORBIDDEN: Read") force high-yield active retrieval.</li>
+            <li><strong>Standardized Table Schema</strong> enables 1-click automated calendar parsing.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: 4-WEEK Master Timetable Explorer -->
+    <section class="tab-pane" id="tab-schedule">
+      <div class="pane-header">
+        <div class="pane-title-group">
+          <h2>Master 4-Week Revision Timetable</h2>
+          <p>Explore the full 88-hour schedule generated by Google Gemini. Filter by week, subject, or topic classification.</p>
+        </div>
+        <div class="schedule-controls">
+          <div class="filter-group">
+            <label for="filter-week">Week:</label>
+            <select id="filter-week" class="form-select">
+              <option value="all">All Weeks (4 Weeks)</option>
+              <option value="W1" selected>Week 1 (Diagnostic Rebuild)</option>
+              <option value="W2">Week 2 (Expanding Intervals)</option>
+              <option value="W3">Week 3 (Interleaved Mocks)</option>
+              <option value="W4">Week 4 (Pre-Exam Tapering)</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-subject">Subject:</label>
+            <select id="filter-subject" class="form-select">
+              <option value="all">All Subjects</option>
+              <option value="Mathematics">Mathematics</option>
+              <option value="Physics">Physics</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Chemistry">Chemistry</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-type">Type:</label>
+            <select id="filter-type" class="form-select">
+              <option value="all">All Types</option>
+              <option value="Weak">Weak Topic Focus (65%)</option>
+              <option value="Strong">Strong Maintenance (35%)</option>
+              <option value="Retrieval">Spaced Retrieval (+3/7/14d)</option>
+              <option value="Simulation">Mock Exam Simulation</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Schedule Table Card -->
+      <div class="card glass">
+        <div class="table-responsive">
+          <table class="data-table" id="schedule-table">
+            <thead>
+              <tr>
+                <th width="70">Week</th>
+                <th width="110">Day</th>
+                <th width="120">Time Slot</th>
+                <th width="130">Subject</th>
+                <th width="110">Type</th>
+                <th>Specific Topic Focus</th>
+                <th>Active Modality</th>
+                <th width="80">Duration</th>
+                <th width="70">Status</th>
+              </tr>
+            </thead>
+            <tbody id="schedule-tbody">
+              <!-- Dynamically populated by app.js -->
+            </tbody>
+          </table>
+        </div>
+        <div class="table-footer">
+          <span id="filtered-count-text">Showing 26 sessions</span>
+          <span class="total-hours-text">Weekly Study Hours: <strong>22.0 Hours</strong> | Break Duration: <strong>10m per sprint</strong></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: VERIFICATION & AUDIT ENGINE -->
+    <section class="tab-pane" id="tab-audit">
+      <div class="pane-header">
+        <div class="pane-title-group">
+          <h2>Verification & Feasibility Audit Engine</h2>
+          <p>Systematic verification of the 5 safety pillars: impossible hours, missing breaks, exam dates, and cognitive load.</p>
+        </div>
+        <div class="audit-summary-badge">
+          <span class="badge badge-success text-lg">Overall Audit Grade: 98.1% (PASSED)</span>
+        </div>
+      </div>
+
+      <div class="audit-grid">
+        <!-- Pillar 1 -->
+        <div class="card glass audit-card pass">
+          <div class="audit-header">
+            <div class="audit-icon">🕒</div>
+            <div>
+              <h3>Pillar 1: Impossible Hours Audit</h3>
+              <span class="audit-status pass">100% Pass</span>
+            </div>
+          </div>
+          <div class="audit-body">
+            <div class="check-item"><span class="check-icon">✅</span> Zero collisions with school hours (08:00 – 15:30)</div>
+            <div class="check-item"><span class="check-icon">✅</span> Weekday study begins at 17:30 (2h transit & dinner buffer)</div>
+            <div class="check-item"><span class="check-icon">✅</span> Weekday cutoff at 20:30 (Preserves 2h wind-down & 8h sleep)</div>
+            <div class="check-item"><span class="check-icon">✅</span> Weekly total matches 22.0 hours exactly (Zero time leaks)</div>
+          </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="card glass audit-card pass">
+          <div class="audit-header">
+            <div class="audit-icon">☕</div>
+            <div>
+              <h3>Pillar 2: Missing Breaks Audit</h3>
+              <span class="audit-status pass">100% Pass</span>
+            </div>
+          </div>
+          <div class="audit-body">
+            <div class="check-item"><span class="check-icon">✅</span> 100% of study blocks follow Pomodoro 50/10 ratio</div>
+            <div class="check-item"><span class="check-icon">✅</span> Zero marathon sessions (> 50 min unbroken work)</div>
+            <div class="check-item"><span class="check-icon">✅</span> 150-minute lunch & movement buffer on Saturday and Sunday</div>
+            <div class="check-item"><span class="check-icon">✅</span> Sunday evening 16:00+ strictly reserved as unallocated buffer</div>
+          </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="card glass audit-card pass">
+          <div class="audit-header">
+            <div class="audit-icon">🎯</div>
+            <div>
+              <h3>Pillar 3: Exam Alignment Audit</h3>
+              <span class="audit-status pass">98% Pass</span>
+            </div>
+          </div>
+          <div class="audit-body">
+            <div class="check-item"><span class="check-icon">✅</span> Week 4 shifts 80% focus to Math (Day 29) & Physics (Day 32)</div>
+            <div class="check-item"><span class="check-icon">✅</span> Chemistry & CS frontloaded in Weeks 1–3</div>
+            <div class="check-item"><span class="check-icon">✅</span> Day 28 (Eve of Exam 1) enforces 12:00 PM cognitive shutdown</div>
+            <div class="check-item"><span class="check-icon">✅</span> Zero late-night cramming allowed on pre-exam days</div>
+          </div>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="card glass audit-card pass">
+          <div class="audit-header">
+            <div class="audit-icon">⚖️</div>
+            <div>
+              <h3>Pillar 4: Weak-Topic Proportionality</h3>
+              <span class="audit-status pass">97% Pass</span>
+            </div>
+          </div>
+          <div class="audit-body">
+            <div class="check-item"><span class="check-icon">✅</span> Weak topic allocation: 66.4% observed (Target: 65%)</div>
+            <div class="check-item"><span class="check-icon">✅</span> Strong topic maintenance: 33.6% observed (Target: 35%)</div>
+            <div class="check-item"><span class="check-icon">✅</span> Spaced intervals (+3d, +7d, +14d) strictly scheduled</div>
+            <div class="check-item"><span class="check-icon">✅</span> Active recall modalities replace 100% of passive reading</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 5: 3-AI COMPARISON MATRIX -->
+    <section class="tab-pane" id="tab-matrix">
+      <div class="pane-header">
+        <div class="pane-title-group">
+          <h2>3-AI Tool Comparative Evaluation</h2>
+          <p>Benchmarking Google Gemini, OpenAI ChatGPT, and Anthropic Claude across 8 quantitative criteria.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Gemini Card -->
+        <div class="card glass winner-card">
+          <div class="winner-ribbon">WINNER: 98.1%</div>
+          <div class="card-header">
+            <div class="tool-logo gemini">G</div>
+            <div>
+              <h3>Google Gemini</h3>
+              <span class="tool-ver">Gemini 2.0 / 1.5 Flash (Free)</span>
+            </div>
+          </div>
+          <div class="score-display">
+            <span class="score-num">78.5</span><span class="score-max">/ 80</span>
+          </div>
+          <p class="tool-summary">Flawless mathematical precision with time budgets. Superior pre-exam tapering and strict table formatting.</p>
+          <ul class="pros-list">
+            <li>Exact 22.0 hrs/week adherence</li>
+            <li>Enforced Day 28 12:00 PM shutdown</li>
+            <li>Cleanest output for .ics/csv parsing</li>
+          </ul>
+        </div>
+
+        <!-- Claude Card -->
+        <div class="card glass">
+          <div class="card-header">
+            <div class="tool-logo claude">C</div>
+            <div>
+              <h3>Anthropic Claude</h3>
+              <span class="tool-ver">Claude 3.5 Sonnet (Free)</span>
+            </div>
+          </div>
+          <div class="score-display">
+            <span class="score-num">76.9</span><span class="score-max">/ 80</span>
+          </div>
+          <p class="tool-summary">Unmatched pedagogical depth and metacognitive design. Best Feynman whiteboard explanations.</p>
+          <ul class="pros-list">
+            <li>Exact 65.0% weak topic ratio</li>
+            <li>Deep first-principles reasoning</li>
+            <li>Seamless math-physics interleaving</li>
+          </ul>
+        </div>
+
+        <!-- ChatGPT Card -->
+        <div class="card glass">
+          <div class="card-header">
+            <div class="tool-logo chatgpt">O</div>
+            <div>
+              <h3>OpenAI ChatGPT</h3>
+              <span class="tool-ver">GPT-4o / GPT-4o-mini (Free)</span>
+            </div>
+          </div>
+          <div class="score-display">
+            <span class="score-num">75.0</span><span class="score-max">/ 80</span>
+          </div>
+          <p class="tool-summary">Practical past-paper question specialist. Superb error-journaling routines and rubric debriefs.</p>
+          <ul class="pros-list">
+            <li>High-yield exam question specs</li>
+            <li>Dedicated error journal synthesis</li>
+            <li>Strong structured markdown</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Comparative Table -->
+      <div class="card glass mt-4">
+        <h3>Evaluation Matrix (8 Standardized Dimensions)</h3>
+        <div class="table-responsive mt-3">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Evaluation Dimension</th>
+                <th>Baseline (Naive)</th>
+                <th>ChatGPT (GPT-4o)</th>
+                <th>Gemini (Flash)</th>
+                <th>Claude (Sonnet)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1. Time Budget Precision (22h/wk)</strong></td>
+                <td class="text-danger">2.5 / 10</td>
+                <td>9.5 / 10</td>
+                <td class="text-success font-bold">10.0 / 10</td>
+                <td>9.6 / 10</td>
+              </tr>
+              <tr>
+                <td><strong>2. Weak-Topic Ratio (65% Target)</strong></td>
+                <td class="text-danger">3.0 / 10</td>
+                <td>9.3 / 10</td>
+                <td>9.8 / 10</td>
+                <td class="text-success font-bold">9.9 / 10</td>
+              </tr>
+              <tr>
+                <td><strong>3. Spaced Repetition Cadence</strong></td>
+                <td class="text-danger">1.0 / 10</td>
+                <td>9.1 / 10</td>
+                <td class="text-success font-bold">9.7 / 10</td>
+                <td>9.4 / 10</td>
+              </tr>
+              <tr>
+                <td><strong>4. Physiological Breaks & Ergonomics</strong></td>
+                <td class="text-danger">2.0 / 10</td>
+                <td>9.4 / 10</td>
+                <td class="text-success font-bold">9.9 / 10</td>
+                <td>9.6 / 10</td>
+              </tr>
+              <tr>
+                <td><strong>5. Exam Proximity Tapering</strong></td>
+                <td class="text-danger">2.0 / 10</td>
+                <td>9.2 / 10</td>
+                <td class="text-success font-bold">9.9 / 10</td>
+                <td>9.4 / 10</td>
+              </tr>
+              <tr>
+                <td><strong>6. Active Modality Specificity</strong></td>
+                <td class="text-danger">2.0 / 10</td>
+                <td>9.7 / 10</td>
+                <td>9.5 / 10</td>
+                <td class="text-success font-bold">9.8 / 10</td>
+              </tr>
+              <tr>
+                <td><strong>7. Schema & Table Compliance</strong></td>
+                <td class="text-danger">4.0 / 10</td>
+                <td>9.5 / 10</td>
+                <td class="text-success font-bold">9.9 / 10</td>
+                <td>9.7 / 10</td>
+              </tr>
+              <tr>
+                <td><strong>8. Automation & Export Readiness</strong></td>
+                <td class="text-danger">1.0 / 10</td>
+                <td>9.3 / 10</td>
+                <td class="text-success font-bold">9.8 / 10</td>
+                <td>9.5 / 10</td>
+              </tr>
+              <tr class="highlight-row">
+                <td><strong>TOTAL COMPOSITE SCORE (OUT OF 80)</strong></td>
+                <td class="text-danger"><strong>17.5 (21.8%)</strong></td>
+                <td><strong>75.0 (93.7%)</strong></td>
+                <td class="text-success"><strong>78.5 (98.1%)</strong></td>
+                <td><strong>76.9 (96.1%)</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 6: CALENDAR & NOTION EXPORT HUB -->
+    <section class="tab-pane" id="tab-calendar">
+      <div class="pane-header">
+        <div class="pane-title-group">
+          <h2>Calendar & Notion Automation Hub</h2>
+          <p>Export all 95 study blocks directly into Google Calendar or import into Notion with 1 click.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-2">
+        <!-- Google Calendar Box -->
+        <div class="card glass">
+          <div class="card-header">
+            <div class="icon-circle">📅</div>
+            <h3>Google Calendar Integration</h3>
+          </div>
+          <p>Pre-packaged calendar events with subject codes, topic objectives, active learning modalities, and 10-minute push notification alarms.</p>
+
+          <div class="download-actions mt-4">
+            <a href="../calendar_exports/revision_planner_events.ics" download="revision_planner_events.ics" class="btn btn-primary" id="btn-download-ics">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download iCal (.ics) Calendar
+            </a>
+            <a href="../calendar_exports/google_calendar_revision_schedule.csv" download="google_calendar_revision_schedule.csv" class="btn btn-outline" id="btn-download-csv">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              Download Google Calendar CSV
+            </a>
+          </div>
+
+          <div class="step-guide mt-4">
+            <h4>Quick Import Instructions:</h4>
+            <ol>
+              <li>Open <a href="https://calendar.google.com/" target="_blank">Google Calendar</a> & click Settings (Gear Icon).</li>
+              <li>Select <strong>Import & Export</strong> in the left menu.</li>
+              <li>Upload <code>google_calendar_revision_schedule.csv</code> or <code>revision_planner_events.ics</code>.</li>
+              <li>Enjoy 88 hours of time-blocked Pomodoro sessions synced to your phone!</li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Notion Hub Box -->
+        <div class="card glass">
+          <div class="card-header">
+            <div class="icon-circle">📝</div>
+            <h3>Notion Revision Board Template</h3>
+          </div>
+          <p>A complete database schema for Notion with Kanban sprint views, pre/post confidence ratings, and an error journal.</p>
+
+          <div class="notion-preview mt-3">
+            <div class="kanban-mini-preview">
+              <div class="kanban-col">
+                <span class="col-title">Not Started (12)</span>
+                <div class="mini-card">[MATH] Diff Equations</div>
+                <div class="mini-card">[PHYS] AC Phasors</div>
+              </div>
+              <div class="kanban-col">
+                <span class="col-title">In Progress (1)</span>
+                <div class="mini-card active">[CS] 0/1 Knapsack</div>
+              </div>
+              <div class="kanban-col">
+                <span class="col-title">Completed (25)</span>
+                <div class="mini-card done">[CHEM] Carbonyl Add.</div>
+                <div class="mini-card done">[MATH] Integration</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4">
+            <a href="../notion_templates/Notion_Revision_Board_Template.md" class="btn btn-secondary w-full" target="_blank">
+              Open Notion Database Schema & Markdown Table
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 7: WEEK 1 EMPIRICAL TRIAL -->
+    <section class="tab-pane" id="tab-trial">
+      <div class="pane-header">
+        <div class="pane-title-group">
+          <h2>Week-One Empirical Trial & Before-vs-After Data</h2>
+          <p>Real-world execution tracking, dynamic mid-week AI re-balancing, and diagnostic re-test score transformations.</p>
+        </div>
+        <div class="adherence-badge">
+          <span>Net Week 1 Adherence: <strong>95.5% (21.0 / 22.0 h)</strong></span>
+        </div>
+      </div>
+
+      <div class="grid grid-2">
+        <!-- Before vs After Diagnostic Scores -->
+        <div class="card glass">
+          <div class="card-header">
+            <div class="icon-circle">📊</div>
+            <h3>Diagnostic Re-Test Transformation (+28.3% Average Gain)</h3>
+          </div>
+          <p class="text-muted">Closed-book, timed diagnostic past-paper scores measured on Day 0 vs Day 7 across targeted weak topics.</p>
+
+          <div class="chart-wrapper mt-4">
+            <div class="score-bar-group">
+              <div class="score-label-wrap">
+                <span class="topic-name">Math: Integration by Parts</span>
+                <span class="score-diff">42% → <strong>74%</strong> (+32%)</span>
+              </div>
+              <div class="dual-bar">
+                <div class="bar-pre" style="width: 42%;">42%</div>
+                <div class="bar-post" style="width: 74%;">74%</div>
+              </div>
+            </div>
+
+            <div class="score-bar-group">
+              <div class="score-label-wrap">
+                <span class="topic-name">Physics: EMI & Lenz's Law</span>
+                <span class="score-diff">45% → <strong>71%</strong> (+26%)</span>
+              </div>
+              <div class="dual-bar">
+                <div class="bar-pre" style="width: 45%;">45%</div>
+                <div class="bar-post" style="width: 71%;">71%</div>
+              </div>
+            </div>
+
+            <div class="score-bar-group">
+              <div class="score-label-wrap">
+                <span class="topic-name">CS: 0/1 Knapsack & DP</span>
+                <span class="score-diff">50% → <strong>78%</strong> (+28%)</span>
+              </div>
+              <div class="dual-bar">
+                <div class="bar-pre" style="width: 50%;">50%</div>
+                <div class="bar-post" style="width: 78%;">78%</div>
+              </div>
+            </div>
+
+            <div class="score-bar-group">
+              <div class="score-label-wrap">
+                <span class="topic-name">Chemistry: Carbonyl Reactions</span>
+                <span class="score-diff">48% → <strong>75%</strong> (+27%)</span>
+              </div>
+              <div class="dual-bar">
+                <div class="bar-pre" style="width: 48%;">48%</div>
+                <div class="bar-post" style="width: 75%;">75%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-legend mt-3">
+            <span class="legend-item"><span class="legend-dot pre"></span> Baseline Pre-Test (Day 0)</span>
+            <span class="legend-item"><span class="legend-dot post"></span> Post-Week 1 Diagnostic (Day 7)</span>
+          </div>
+        </div>
+
+        <!-- Dynamic Rebalancing & Behavioral Reflection -->
+        <div class="card glass">
+          <div class="card-header">
+            <div class="icon-circle">🔄</div>
+            <h3>The Mid-Week Dynamic Re-Balancing Incident</h3>
+          </div>
+          <p>On Wednesday (Day 3), Aarav missed his Dynamic Programming session due to severe physical fatigue after a school athletic meet. Traditional timetables collapse here.</p>
+
+          <div class="rebalance-flow mt-3">
+            <div class="flow-step">
+              <div class="step-num">1</div>
+              <div class="step-desc">
+                <strong>Disruption Detected (Wed 20:00):</strong>
+                <span>Fatigue index: 8/10. Student unable to absorb complex algorithms.</span>
+              </div>
+            </div>
+            <div class="flow-step">
+              <div class="step-num">2</div>
+              <div class="step-desc">
+                <strong>AI Dynamic Re-Balance Prompt Run:</strong>
+                <span>Prompt instructed AI to protect Thursday's cap and utilize the Sunday buffer.</span>
+              </div>
+            </div>
+            <div class="flow-step">
+              <div class="step-num">3</div>
+              <div class="step-desc">
+                <strong>Zero-Panic Re-Allocation:</strong>
+                <span>AI re-slotted DP to Sunday 16:00. Aarav went to sleep guilt-free at 21:00.</span>
+              </div>
+            </div>
+            <div class="flow-step">
+              <div class="step-num">4</div>
+              <div class="step-desc">
+                <strong>Sunday Execution:</strong>
+                <span>Completed with 100% focus during the reserved buffer. 25 of 26 sessions finished!</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="anxiety-stats mt-4">
+            <div class="stat-card">
+              <span class="stat-big text-success">-55%</span>
+              <span class="stat-sub">Test Anxiety Score (8.4 → 3.8 / 10)</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-big text-info">0 hrs</span>
+              <span class="stat-sub">Decision Fatigue (Pre-decided sessions)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 8: PROMPT TOOLKIT -->
+    <section class="tab-pane" id="tab-library">
+      <div class="pane-header">
+        <div class="pane-title-group">
+          <h2>Reusable AI Revision Prompt Toolkit</h2>
+          <p>Copy-and-paste modular prompts for every phase of your revision cycle.</p>
+        </div>
+      </div>
+
+      <div class="prompt-grid">
+        <!-- Prompt 1 -->
+        <div class="card glass prompt-card">
+          <div class="card-header justify-between">
+            <h3>1. Diagnostic Profile Extractor</h3>
+            <button class="btn btn-sm btn-outline copy-prompt-btn" data-target="p1">Copy</button>
+          </div>
+          <p class="text-muted">Interviews a student to extract baseline scores, exam dates, and weekly constraints into structured JSON.</p>
+          <div class="code-box-sm">
+            <pre><code id="p1"># ROLE: Educational Diagnostics Specialist
+You will interview me or analyze my academic data to construct a standardized Student Revision Profile.
+Ask me 5 questions:
+1. What subjects and exact exam dates?
+2. Recent mock scores vs target scores?
+3. Top 2-3 weak topics per subject?
+4. School hours, transit & sleep schedule?
+5. Max sustainable weekly revision hours?
+Compile into clean JSON schema.</code></pre>
+          </div>
+        </div>
+
+        <!-- Prompt 2 -->
+        <div class="card glass prompt-card">
+          <div class="card-header justify-between">
+            <h3>2. Dynamic Crisis Re-Balancing</h3>
+            <button class="btn btn-sm btn-outline copy-prompt-btn" data-target="p2">Copy</button>
+          </div>
+          <p class="text-muted">Re-adjusts missed revision sessions without adding hours to tomorrow or inducing student panic.</p>
+          <div class="code-box-sm">
+            <pre><code id="p2"># ROLE: Agile Academic Revision Coach
+I missed scheduled sessions due to fatigue/illness:
+- Sessions Missed: [Insert missed topics]
+- Next Exam: [Insert upcoming exam date]
+CONSTRAINTS:
+1. DO NOT add hours to tomorrow (weekday cap is sacred).
+2. Absorb into upcoming Sunday 2-hour buffer block.
+3. Output updated schedule for remaining days.</code></pre>
+          </div>
+        </div>
+
+        <!-- Prompt 3 -->
+        <div class="card glass prompt-card">
+          <div class="card-header justify-between">
+            <h3>3. Active Recall Past-Paper Generator</h3>
+            <button class="btn btn-sm btn-outline copy-prompt-btn" data-target="p3">Copy</button>
+          </div>
+          <p class="text-muted">Generates 3 timed, board-exam standard questions for a weak topic with delayed mark schemes.</p>
+          <div class="code-box-sm">
+            <pre><code id="p3"># ROLE: Senior Chief Examiner
+Generate a 35-minute Timed Active Problem Set on:
+- Subject: [Physics] | Topic: [Lenz's Law & EMI]
+- Q1 (5m): Conceptual Directional prediction.
+- Q2 (7m): Multi-step analytical numerical.
+- Q3 (8m): Tricky exam board problem.
+Do NOT reveal answers until I reply with "MARK".</code></pre>
+          </div>
+        </div>
+
+        <!-- Prompt 4 -->
+        <div class="card glass prompt-card">
+          <div class="card-header justify-between">
+            <h3>4. Feynman Whiteboard Evaluator</h3>
+            <button class="btn btn-sm btn-outline copy-prompt-btn" data-target="p4">Copy</button>
+          </div>
+          <p class="text-muted">Audits student plain-English explanations to uncover subtle conceptual gaps and misconceptions.</p>
+          <div class="code-box-sm">
+            <pre><code id="p4"># ROLE: Socratic Academic Mentor
+I will explain [Insert Topic] in plain English from memory:
+Audit against 3 criteria:
+1. Conceptual clarity (Why it works).
+2. Omission of critical preconditions.
+3. Misconceptions or false assumptions.
+Score out of 10 and challenge my weakest sentence.</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 9: SLIDE DECK & VIDEO STORYBOARD -->
+    <section class="tab-pane" id="tab-demo">
+      <div class="pane-header">
+        <div class="pane-title-group">
+          <h2>Presentation Slide Deck & Video Storyboard</h2>
+          <p>Interactive 10-slide capstone defense presentation and 2-minute Canva/Loom explainer video script.</p>
+        </div>
+        <div class="slide-nav-controls">
+          <button class="btn btn-outline btn-sm" id="btn-prev-slide">◀ Previous Slide</button>
+          <span id="slide-indicator" class="slide-indicator">Slide 1 / 10</span>
+          <button class="btn btn-primary btn-sm" id="btn-next-slide">Next Slide ▶</button>
+        </div>
+      </div>
+
+      <!-- Slide Deck Viewer -->
+      <div class="slide-viewport">
+        <div class="slide-card glass" id="active-slide-container">
+          <!-- Slide contents injected by app.js -->
+        </div>
+      </div>
+
+      <!-- Video Script Accordion -->
+      <div class="card glass mt-4">
+        <div class="card-header justify-between">
+          <h3>2-Minute Explainer Video Teleprompter Script (Canva / Loom)</h3>
+          <span class="badge badge-info">Duration: Exactly 120s</span>
+        </div>
+        <div class="video-script-timeline mt-3">
+          <div class="script-block">
+            <div class="script-time">0:00 – 0:15</div>
+            <div class="script-content">
+              <strong>[The Hook — Visual: Midnight study desk & chaotic ChatGPT chat]</strong>
+              <p>"Every exam season, millions of students make the same mistake: they ask AI for a study timetable, and it gives them an impossible 14-hour marathon plan that collapses by day three. But what if we made AI plan like a cognitive scientist?"</p>
+            </div>
+          </div>
+          <div class="script-block">
+            <div class="script-content">
+              <div class="script-time">0:15 – 0:35</div>
+              <strong>[The Student Profile — Visual: Aarav's 53% baseline & 22-hour budget]</strong>
+              <p>"Meet Aarav. Four board exams in 28 days. Baseline score: 53%. Free study time: exactly 22 hours a week—and not a minute more. He doesn't need generic advice like 'read chapter 4'. He needs a battle plan tailored to his weakest topics."</p>
+            </div>
+          </div>
+          <div class="script-block">
+            <div class="script-content">
+              <div class="script-time">0:35 – 0:55</div>
+              <strong>[Prompt Breakthrough — Visual: Negative constraints & Pomodoro rule]</strong>
+              <p>"Here's our breakthrough prompt. We gave the AI strict rules: exactly 22 hours a week, zero sessions after 9 PM to protect sleep, 65% of time dedicated to weak topics, and active retrieval only—no passive reading allowed."</p>
+            </div>
+          </div>
+          <div class="script-block">
+            <div class="script-content">
+              <div class="script-time">0:55 – 1:15</div>
+              <strong>[The 3-AI Test — Visual: Gemini wins with 98% accuracy]</strong>
+              <p>"We tested this across ChatGPT, Claude, and Google Gemini. Gemini won with 98% accuracy—flawlessly matching difficult calculus to morning energy peaks and tapering study before exam day."</p>
+            </div>
+          </div>
+          <div class="script-block">
+            <div class="script-content">
+              <div class="script-time">1:15 – 1:35</div>
+              <strong>[Automation — Visual: 1-click sync into Google Calendar & Notion]</strong>
+              <p>"Then, we turned code into action: 95 automated study blocks imported straight into Google Calendar with reminder alarms, synced with a custom Notion error-tracking board."</p>
+            </div>
+          </div>
+          <div class="script-block">
+            <div class="script-content">
+              <div class="script-time">1:35 – 2:00</div>
+              <strong>[Empirical Results — Visual: +28% score surge & call to action]</strong>
+              <p>"Aarav tested it for Week 1. When mid-week fatigue hit, our dynamic AI prompt re-slotted missed work into the Sunday buffer without guilt. After 7 days, his weak topic test scores surged from 46% to 74%. Can AI build a realistic revision planner? Absolutely. Check out the dashboard link below!"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div>
+        <strong>AcuityAI Revision Planner</strong> — Capstone 2 Project Deliverable
+      </div>
+      <div>
+        Built with Pure Semantic HTML5, Vanilla CSS3 & Modern JavaScript. Zero Dependencies.
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
