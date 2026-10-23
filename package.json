@@ -1,0 +1,18 @@
+{
+  "name": "acuity-ai-revision-planner",
+  "version": "1.0.0",
+  "description": "AcuityAI - Personalised Exam Revision Planner Interactive Portfolio & Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "revision-planner",
+    "ai",
+    "education",
+    "capstone"
+  ],
+  "author": "",
+  "license": "ISC"
+}
